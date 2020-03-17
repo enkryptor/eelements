@@ -1,0 +1,29 @@
+{
+  "name": "eelements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build.sh",
+    "start": "npx serv dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkryptor/eelements.git"
+  },
+  "author": "enkryptor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enkryptor/eelements/issues"
+  },
+  "homepage": "https://github.com/enkryptor/eelements#readme",
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "esmify": "^2.1.1",
+    "serv": "^0.2.4",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  }
+}
