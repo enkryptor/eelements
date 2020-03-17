@@ -1,3 +1,3 @@
 # eelements
 
-* *app-toggle* Toggle component with two states.
+* **app-toggle** Toggle component with two states.
