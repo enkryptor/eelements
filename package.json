@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "build.sh",
-    "start": "npx serv dist/"
+    "start": "vite"
   },
   "repository": {
     "type": "git",
@@ -18,12 +17,9 @@
   },
   "homepage": "https://github.com/enkryptor/eelements#readme",
   "devDependencies": {
-    "browserify": "^16.5.0",
-    "esmify": "^2.1.1",
-    "serv": "^0.2.4",
-    "typescript": "^3.8.3"
+    "vite": "^7.3.1"
   },
   "dependencies": {
-    "lit-element": "^2.2.1"
+    "lit-element": "^4.2.2"
   }
 }
